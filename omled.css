@@ -1,0 +1,137 @@
+body{
+    margin: 40px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:hsl(30, 54%, 90%);;
+    
+}
+
+.container{
+    background: white;
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.img img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+h1{
+    
+        color:hsl(24, 5%, 18%);
+        font-family: Young Serif;
+        font-weight: 800;
+        font-style: bold;
+    
+
+}
+
+p{
+    color: hsl(30, 10%, 34%); 
+}
+
+.preparation-time{
+    background: hsl(330, 64%, 91%);
+    border-radius:10px;
+    
+}
+
+.preparation-time h3{
+    margin-left: 20px;
+    color: hsl(308, 94%, 14%);
+}
+
+.preparation-time span{
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+.preparation-time ul li{
+    margin-left:0;
+    margin-top: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation-time ul li::marker{
+    color: hsl(308, 94%, 14%);
+}
+
+.ingredients h2, li::marker{
+    color:hsl(14, 45%, 36%) ;
+}
+
+.ingredients ul{
+   padding-left:0 ;
+   margin-left: 20px;
+}
+
+.ingredients li{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+hr{
+    margin-top: 30px;
+}
+
+.instructions h2{
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions ol{
+padding-left:0px;
+margin-left: 20px;
+
+}
+
+.instructions ol li::marker{
+    font-weight: bold;
+}
+
+.instructions ol li {
+    padding-left: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+.instructions ol span{
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.nutrition p {
+    font-family: Outfit;
+    font-weight: 540;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition h2{
+    color: hsl(14, 45%, 36%);
+    font-family: Young serif;
+}
+
+
+table td {
+    width: 300px;
+    padding: 10px 50px;
+    font-family:Young serif;
+    font-weight: 500;
+    
+    border-bottom: 1px solid ;
+    color: hsl(30, 10%, 34%);
+}
+
+td:last-child {
+    font-weight: 800;
+    color:hsl(14, 45%, 36%) ;
+}
